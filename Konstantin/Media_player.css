@@ -35,18 +35,22 @@
     box-shadow: 0 0 20px #ff6f61cc;
   }
   .video-placeholder {
-    width: 100%;
-    height: 100%;
-    background: #222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #666;
-    font-size: 1.2rem;
-    font-weight: 600;
-    user-select: none;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #ff6f61cc;
   }
 
+.fight-club {
+  background-image: url("fight_club.jpg");
+}
+
+.dexter {
+  background-image: url("dexter.jpg");
+}
 
   .film-info {
     color: #fff;
@@ -127,46 +131,52 @@
     text-align: right;
   }
 
+.related-films {
+  margin-top: 40px;
+  padding: 0 20px;
+}
 
-  .related-films {
-    margin-top: 40px;
-  }
-  .related-title {
-    font-size: 1.4rem;
-    margin-bottom: 12px;
-    color: #ff6f61;
-    text-shadow: 0 0 8px #ff6f61cc;
-  }
-  .related-list {
-    display: flex;
-    gap: 16px;
-    overflow-x: auto;
-    padding-bottom: 12px;
-  }
-  .related-item {
-    flex: 0 0 140px;
-    background: #222;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #ff6f61cc inset;
-    cursor: pointer;
-    transition: transform 0.2s;
-    user-select: none;
-  }
-  .related-item:hover {
-    transform: scale(1.05);
-  }
-  .related-thumb {
-    height: 80px;
-    background: #444;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  .related-title-item {
-    padding: 8px;
-    font-size: 0.9rem;
-    color: #eee;
-    text-align: center;
-  }
+.related-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.related-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.related-card {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  padding: 12px;
+  width: 120px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.related-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.related-thumb {
+  width: 100%;
+  height: 80px;
+  background-color: #333;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.related-title {
+  font-size: 14px;
+  font-weight: 500;
+}
 
 
   .related-list::-webkit-scrollbar {
