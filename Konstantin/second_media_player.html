@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Media Playback</title>
+<link rel="stylesheet" href="Media_player.css">
+</head>
+<script src="Switch_modes.js"></script>
+<body>
+   <button onclick="toggleLightMode()" class="mode-toggle">Switch to Light Mode</button>
+  <div class="container">
+    <div class="video-player" aria-label="Film video player">
+     <div class="video-placeholder dexter"></div>
+    </div>
+
+    <div class="film-info">
+      <h1 class="film-title">Dexter</h1>
+      <p class="film-description">Dexter is a crime drama series about Dexter Morgan, a Miami blood-spatter analyst who leads a double life as a vigilante serial killer, targeting other murderers who have escaped justice..</p>
+      <div class="metadata" aria-label="Film metadata">
+        <span>Director: Michael Cuesta</span>
+        <span>Cast: Michael.C.Hall,Jennifer Carpenter</span>
+        <span>Rating: ★★★★☆</span>
+        <span>Duration: 2h 15m</span>
+        <span>Genre: Drama, Thriller</span>
+      </div>
+    </div>
+
+    <div class="controls" aria-label="Video playback controls">
+      <button class="play-button" aria-label="Play/Pause">
+        <div class="play-icon"></div>
+      </button>
+      <div class="progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="35" role="progressbar" tabindex="0">
+        <div class="progress"></div>
+      </div>
+      <div class="time" aria-live="polite">52:00 / 164:00</div>
+    </div>
+
+<div class="related-films">
+  <h2 class="related-title">You Might Also Like</h2>
+  <div class="related-list">
+    <div class="related-card">
+          <div class="related-thumb"></div>
+          <div class="related-title">Film One</div>
+        </div>
+    <div class="related-card">
+      <div class="related-thumb"></div>
+      <div class="related-title">Film Two</div>
+    </div>
+    <div class="related-card">
+      <div class="related-thumb"></div>
+      <div class="related-title">Film Three</div>
+    </div>
+    <div class="related-card">
+      <div class="related-thumb"></div>
+      <div class="related-title">Film Four</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
