@@ -100,7 +100,22 @@ body {
 
 .Review1 > a {
     color: #dc143c;
-    text-decoration: none;
+}
+
+.rating{
+    background-color: rgb(24, 24, 24);
+    margin: 5mm;
+    color: #dc143c;
+    padding: 4mm 4mm;
+    text-align : left;
+    width: 70mm;
+    height: 15mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    position: absolute;
+    top : 47mm;
+    left : 230mm;
+    font-size: 125%;
 }
 
 .write_review{
@@ -123,22 +138,6 @@ body {
     position: absolute;
     top : 47mm;
     left : 25mm;
-    font-size: 125%;
-}
-
-.rating{
-    background-color: rgb(24, 24, 24);
-    margin: 5mm;
-    color: #dc143c;
-    padding: 4mm 4mm;
-    text-align : left;
-    width: 70mm;
-    height: 15mm ;
-    border-radius: 25px;
-    border: solid 1px red;
-    position: absolute;
-    top : 47mm;
-    left : 230mm;
     font-size: 125%;
 }
 
@@ -172,4 +171,38 @@ body {
     top : 80mm;
     left : 200mm;
     font-size: 125%;
+}
+
+.play{
+    position: absolute;
+    top: 150mm;
+    left: 223mm;
+    font-size: 200%;
+}
+
+.play a {
+    color: #dc143c;
+}
+
+.submit_button {
+    background-color: rgb(24, 24, 24);
+    color: #dc143c;
+    text-align: center;
+    width: 100mm;
+    height: 10mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    position: absolute;
+    top : 150mm;
+    left : 205mm;
+    font-size: 125%;
+}
+
+.submit_button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}
+
+#rating-result {
+  display: none;
 }
