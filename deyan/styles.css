@@ -37,6 +37,7 @@ h2 {
   margin-left: 3.75rem;
   font-size: 1.5rem;
   text-transform: uppercase;
+  color: red;
 }
 
 .section {
@@ -49,11 +50,13 @@ h2 {
 
 .series {
   text-align: center;
-  max-width: 12.5rem;
+  width: 200px;       
 }
 
 .series img {
-  width: 100%;
+  width: 200px !important;
+  height: 300px !important;
+  object-fit: cover;
   border: 4px solid rgb(255, 0, 0);
 }
 
@@ -62,4 +65,11 @@ h2 {
   font-size: 1.125rem;
   font-weight: bold;
   color:#fd0000
+}
+
+.movie img {
+  width: 200px !important;
+  height: 300px !important;
+  object-fit: cover;
+  border: 4px solid rgb(255, 0, 0);
 }
