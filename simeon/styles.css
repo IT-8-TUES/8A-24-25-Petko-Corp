@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(24, 24, 24);
+    font-family: 'Georgia', serif;
+    color: #dc143c;
+}
+.streamscene{
+    position : absolute;
+    top : 3.75mm;
+    left : 261mm;
+    color: #dc143c;
+}
+
+.home{
+    position : absolute;
+    top : 5mm;
+    left : 120mm;
+    color: #dc143c;
+}
+
+.movies{
+    position : absolute;
+    top : 5mm;
+    left : 160mm;
+    color: #dc143c;
+}
+
+.shows{
+    position : absolute;
+    top : 5mm;
+    left : 200mm;
+    color: #dc143c;
+}
+
+.Search{
+    background-color: rgb(24, 24, 24);
+    color : #dc143c;
+    margin: 5mm;
+    padding: 4mm 4mm;
+    text-align : left;
+    width: 70mm;
+    height: 10mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    position: absolute;
+    top : 4mm;
+    left : 10mm;
+    font-size: 125%;
+}
+
+.name{
+    position : absolute;
+    top : 45mm;
+    left : 145mm;
+    font-size: 200%;
+    color: #dc143c;
+}
+
+.img1{
+    position : absolute;
+    top : 35mm;
+    left : 15mm;
+    margin-bottom: 10mm;
+    border: 2px #dc143c solid;
+}
+
+.img2{
+    position : absolute;
+    top : 75mm;
+    left : 144mm;
+    margin-bottom: 10mm;
+    border: 2px #dc143c solid;
+}
+
+.text{
+    position : absolute;
+    top : 70mm;
+    left : 157mm;
+    font-size: 150%;
+    width: 175mm;
+    text-align: center;
+}
+
+.Review1{
+    background-color: rgb(24, 24, 24);
+    color : #dc143c;
+    margin: 5mm;
+    padding: 2mm 2mm;
+    text-align : left;
+    width: 45mm;
+    height: 7mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top : 40mm;
+    left : 215mm;
+}
+
+.Review1 > a {
+    color: #dc143c;
+    text-decoration: none;
+}
+
+.write_review{
+    font-size: 175%;
+    position: absolute;
+    top : 25mm;
+    left: 137mm;
+}
+
+.uname{
+    background-color: rgb(24, 24, 24);
+    margin: 5mm;
+    color: #dc143c;
+    padding: 4mm 4mm;
+    text-align : left;
+    width: 70mm;
+    height: 15mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    position: absolute;
+    top : 47mm;
+    left : 25mm;
+    font-size: 125%;
+}
+
+.rating{
+    background-color: rgb(24, 24, 24);
+    margin: 5mm;
+    color: #dc143c;
+    padding: 4mm 4mm;
+    text-align : left;
+    width: 70mm;
+    height: 15mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    position: absolute;
+    top : 47mm;
+    left : 230mm;
+    font-size: 125%;
+}
+
+.like{
+    background-color: rgb(24, 24, 24);
+    margin: 5mm;
+    color: #dc143c;
+    text-align: left;  
+    padding:4mm 4mm;
+    width: 100mm;
+    height: 50mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    position: absolute;
+    top : 80mm;
+    left : 25mm;
+    font-size: 125%;
+}
+
+.dislike{
+    background-color: rgb(24, 24, 24);
+    margin: 5mm;
+    color: #dc143c;
+    text-align: left;  
+    padding:4mm 4mm;
+    width: 100mm;
+    height: 50mm ;
+    border-radius: 25px;
+    border: solid 1px red;
+    position: absolute;
+    top : 80mm;
+    left : 200mm;
+    font-size: 125%;
+}
