@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Film Playback Wireframe</title>
+<link rel="stylesheet" href="Media_player.css">
+</head>
+<body>
+  <div class="container">
+    <div class="video-player" aria-label="Film video player">
+      <div class="video-placeholder">Film Video Player</div>
+    </div>
+
+    <div class="film-info">
+      <h1 class="film-title">Amazing Film Title</h1>
+      <p class="film-description">This is a captivating description of the film that summarizes the story, genre, and highlights to draw the viewer's interest.</p>
+      <div class="metadata" aria-label="Film metadata">
+        <span>Director: John Doe</span>
+        <span>Cast: Jane Smith, Bob Brown</span>
+        <span>Rating: ★★★★☆</span>
+        <span>Duration: 2h 15m</span>
+        <span>Genre: Drama, Thriller</span>
+      </div>
+    </div>
+
+    <div class="controls" aria-label="Video playback controls">
+      <button class="play-button" aria-label="Play/Pause">
+        <div class="play-icon"></div>
+      </button>
+      <div class="progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="35" role="progressbar" tabindex="0">
+        <div class="progress"></div>
+      </div>
+      <div class="time" aria-live="polite">35:00 / 120:00</div>
+    </div>
+
+    <div class="related-films">
+      <h2 class="related-title">You Might Also Like</h2>
+      <div class="related-list" role="list">
+        <div class="related-item" role="listitem" tabindex="0">
+          <div class="related-thumb"></div>
+          <div class="related-title-item">Film One</div>
+        </div>
+        <div class="related-item" role="listitem" tabindex="0">
+          <div class="related-thumb"></div>
+          <div class="related-title-item">Film Two</div>
+        </div>
+        <div class="related-item" role="listitem" tabindex="0">
+          <div class="related-thumb"></div>
+          <div class="related-title-item">Film Three</div>
+        </div>
+        <div class="related-item" role="listitem" tabindex="0">
+          <div class="related-thumb"></div>
+          <div class="related-title-item">Film Four</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
