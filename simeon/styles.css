@@ -1,0 +1,156 @@
+body {
+    background-color: #e0e0e0;
+    font-family: 'Georgia', serif;
+    color: black;
+}
+.streamscene{
+    position : absolute;
+    top : 3.75mm;
+    left : 261mm;
+    color: black;
+}
+
+.home{
+    position : absolute;
+    top : 5mm;
+    left : 120mm;
+    color: black;
+}
+
+.movies{
+    position : absolute;
+    top : 5mm;
+    left : 160mm;
+    color: black;
+}
+
+.shows{
+    position : absolute;
+    top : 5mm;
+    left : 200mm;
+    color: black;
+}
+
+.Search{
+    background-color: #c2c2c2;
+    margin: 5mm;
+    padding: 4mm 4mm;
+    text-align : left;
+    width: 70mm;
+    height: 10mm ;
+    border-radius: 25px;
+    border: none;display: flex;
+    position: absolute;
+    top : 4mm;
+    left : 10mm;
+    font-size: 125%;
+}
+
+.name{
+    position : absolute;
+    top : 45mm;
+    left : 155mm;
+    font-size: 200%;
+    color: black;
+}
+
+.img1{
+    position : absolute;
+    top : 35mm;
+    left : 15mm;
+    margin-bottom: 10mm;
+    border: none ;
+}
+
+.text{
+    position : absolute;
+    top : 65mm;
+    left : 157mm;
+    font-size: 150%;
+    width: 175mm;
+    text-align: center;
+}
+
+.Review{
+    background-color: #c2c2c2;
+    margin: 5mm;
+    padding: 2mm 2mm;
+    text-align : left;
+    width: 45mm;
+    height: 7mm ;
+    border-radius: 25px;
+    border: none;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top : 40mm;
+    left : 215mm;
+}
+
+.write_review{
+    font-size: 175%;
+    position: absolute;
+    top : 25mm;
+    left: 135mm;
+}
+
+.uname{
+    background-color: #c2c2c2;
+    margin: 5mm;
+    padding: 4mm 4mm;
+    text-align : left;
+    width: 70mm;
+    height: 15mm ;
+    border-radius: 25px;
+    border: none;display: flex;
+    position: absolute;
+    top : 47mm;
+    left : 25mm;
+    font-size: 125%;
+}
+
+.rating{
+    background-color: #c2c2c2;
+    margin: 5mm;
+    padding: 4mm 4mm;
+    text-align : left;
+    width: 70mm;
+    height: 15mm ;
+    border-radius: 25px;
+    border: none;display: flex;
+    position: absolute;
+    top : 47mm;
+    left : 230mm;
+    font-size: 125%;
+}
+
+.like{
+    background-color: #c2c2c2;
+    margin: 5mm;
+    text-align: left;  
+    padding:4mm 4mm;
+    width: 100mm;
+    height: 50mm ;
+    border-radius: 25px;
+    border: none;display: flex;
+    position: absolute;
+    top : 80mm;
+    left : 25mm;
+    font-size: 125%;
+}
+
+.dislike{
+    background-color: #c2c2c2;
+    margin: 5mm;
+    text-align: left;  
+    padding:4mm 4mm;
+    width: 100mm;
+    height: 50mm ;
+    border-radius: 25px;
+    border: none;display: flex;
+    position: absolute;
+    top : 80mm;
+    left : 200mm;
+    font-size: 125%;
+}
